@@ -2,7 +2,7 @@
 # To honor their work, you should not disable it.
 # This has nearly no effect on the server performance!
 # Check out https://bStats.org/ to learn more :)
-enabled: true
+enabled: false
 serverUuid: 0e1b070e-1873-4bed-8423-6d9e059209f5
 logFailedRequests: false
 logSentData: false
