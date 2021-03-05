@@ -1,6 +1,7 @@
 # Minecraft-Server-Config
 
 Server-IP: mc.k118.de
+
 Freiwilliger Beitrag zu den Serverkosten: https://www.paypal.com/pools/c/8xrClTIwcN
 
 
