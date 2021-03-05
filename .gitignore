@@ -12,7 +12,6 @@ plugins/WorldEdit/.archive-unpack
 plugins/WorldEdit/sessions/
 plugins/WorldGuard/cache/profiles.sqlite
 usercache.json
-whitelist.json
 
 /world/
 /world_nether/
