@@ -14,7 +14,9 @@ regions:
         min: {x: -287, y: 0, z: 116}
         max: {x: -187, y: 255, z: 216}
         members: {}
-        flags: {}
+        flags: {greeting: 'Du hast den Spawnbereich betreten. Bitte beachte, dass
+                du hier nicht bauen kannst.', farewell: Du hast den Spawnbereich verlassen.
+                Viel Spaß!}
         owners: {}
         type: cuboid
         priority: 0
@@ -22,7 +24,8 @@ regions:
         min: {x: -421, y: 0, z: 296}
         max: {x: -362, y: 255, z: 341}
         members: {}
-        flags: {}
+        flags: {greeting: Du betrittst das Grundstück von purpurElefant, farewell: Du
+                verlässt das Grundstück von purpurElefant}
         owners:
             unique-ids: [0f70ee77-e5a9-441b-96b5-841246860e3a]
         type: cuboid
@@ -31,7 +34,8 @@ regions:
         min: {x: -618, y: 0, z: 205}
         max: {x: -589, y: 255, z: 236}
         members: {}
-        flags: {}
+        flags: {greeting: Du betrittst das Grundstück von Matze, farewell: Du verlässt
+                das Grundstück von Matze}
         owners:
             unique-ids: [18e6b97c-a736-4562-a26b-dc272f8ad6c8]
         type: cuboid
@@ -40,7 +44,8 @@ regions:
         min: {x: -466, y: 0, z: 176}
         max: {x: -408, y: 255, z: 241}
         members: {}
-        flags: {}
+        flags: {greeting: Du betrittst das Grundstück von MrKrisKrisu, farewell: Du
+                verlässt das Grundstück von MrKrisKrisu}
         owners:
             unique-ids: [09ad39cf-b231-4d2f-8efd-8deb1ebf52ab]
         type: cuboid
