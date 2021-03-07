@@ -10,13 +10,40 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    spawn:
-        min: {x: -287, y: 0, z: 116}
-        max: {x: -187, y: 255, z: 216}
+    weltbahn-blue-weststadt:
+        min: {x: -474, y: 61, z: 236}
+        max: {x: -466, y: 72, z: 249}
         members: {}
-        flags: {greeting: 'Du hast den Spawnbereich betreten. Bitte beachte, dass
-                du hier nicht bauen kannst.', farewell: Du hast den Spawnbereich verlassen.
-                Viel Spaß!}
+        flags:
+            build: deny
+            interact: allow
+            greeting-title: |-
+                §6Weststadt
+                §9Weltbahn Station
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-blue-east:
+        min: {x: -131, y: 31, z: 174}
+        max: {x: 869, y: 43, z: 186}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    westbahn-blue-east-northsouth:
+        min: {x: 421, y: 31, z: -817}
+        max: {x: 431, y: 43, z: 1183}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-blue-west:
+        min: {x: -1285, y: 34, z: 176}
+        max: {x: -278, y: 41, z: 184}
+        members: {}
+        flags: {}
         owners: {}
         type: cuboid
         priority: 0
@@ -48,5 +75,19 @@ regions:
                 verlässt das Grundstück von MrKrisKrisu}
         owners:
             unique-ids: [09ad39cf-b231-4d2f-8efd-8deb1ebf52ab]
+        type: cuboid
+        priority: 0
+    weltbahn-kroepcke:
+        min: {x: -256, y: 29, z: 121}
+        max: {x: -155, y: 60, z: 223}
+        members: {}
+        flags:
+            build: deny
+            interact: allow
+            greeting-title: |-
+                §6Kröpcke
+                §9Weltbahn Station
+            mob-spawning: deny
+        owners: {}
         type: cuboid
         priority: 0
