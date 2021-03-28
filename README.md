@@ -5,7 +5,7 @@ Server-IP: mc.k118.de
 Freiwilliger Beitrag zu den Serverkosten: https://www.paypal.com/pools/c/8xrClTIwcN
 
 
-Bei Vorschlägen zur Konfigurationen gerne Änderungen per Pull Request vorschlagen.
+Bei Vorschlägen zur Konfiguration, gerne Änderungen per Pull Request vorschlagen.
 
 ## Geschützte Bereiche / Grundstücke
 Geschütze Bereich können eigenständig in folgende Datei eingetragen werden (via PullRequest):
