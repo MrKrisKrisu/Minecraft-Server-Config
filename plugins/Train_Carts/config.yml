@@ -212,7 +212,11 @@ statementShortcuts: {}
 
 # Several shortcuts you can use on signs to set the items
 itemShortcuts:
-  zl_furnace: gold_ore;iron_ore;beef;chicken;fish;mutton;coal_ore;lapis_ore;diamond_ore;redstone_ore;lit_redstone_ore;emerald_ore;quartz_ore;raw_cod;raw_salmon;raw_porkchop
+  zl_furnace: gold_ore;iron_ore;beef;chicken;fish;mutton;coal_ore;lapis_ore;diamond_ore;redstone_ore;lit_redstone_ore;emerald_ore;quartz_ore;raw_cod;raw_salmon;raw_porkchop;nether_quartz_ore;nether_gold_ore
+  zl_signs: oak_sign;spruce_sign;birch_sign;jungle_sign;acacia_sign;dark_oak_sign;crimson_sign;warped_sign
+  zl_buttons: stone_button;oak_button;spruce_button;birch_button;jungle_button;acacia_button;dark_oak_button;crimson_button;warped_button;polished_blackstone_button
+  zl_pressure: stone_pressure_plate;oak_pressure_plate;spruce_pressure_plate;birch_pressure_plate;jungle_pressure_plate;acacia_pressure_plate;dark_oak_pressure_plate;crimson_pressure_plate;warped_pressure_plate;polished_blackstone_pressure_plate;light_weighted_pressure_plate;heavy_weighted_pressure_plate
+  
 
 # Parse signs made in Minecraft 1.7 and before without re-creating
 parseOldSigns: false
