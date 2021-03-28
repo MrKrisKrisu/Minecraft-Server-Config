@@ -43,7 +43,7 @@ components:
   - class: org.dynmap.InternalClientUpdateComponent
     sendhealth: true
     sendposition: true
-    allowwebchat: true
+    allowwebchat: false
     webchat-interval: 5
     hidewebchatip: false
     trustclientname: false
@@ -99,7 +99,7 @@ components:
   #  hidenames: false
    
   - class: org.dynmap.SimpleWebChatComponent
-    allowchat: true
+    allowchat: false
     # If true, web UI users can supply name for chat using 'playername' URL parameter.  'trustclientname' must also be set true.
     allowurlname: false
   
@@ -122,7 +122,7 @@ components:
     offlineminzoom: 0
     maxofflinetime: 30
     # (optional) layer for showing player's spawn beds
-    showspawnbeds: false
+    showspawnbeds: true
     spawnbedlabel: "Spawn Beds"
     spawnbedicon: bed
     spawnbedhidebydefault: true
@@ -130,7 +130,7 @@ components:
     spawnbedformat: "%name%'s bed"
     # (optional) show world border (vanilla 1.8+)
     showworldborder: true
-    worldborderlabel: "Border"
+    worldborderlabel: "Ende der Welt"
     
   - class: org.dynmap.ClientComponent
     type: chat
@@ -202,7 +202,7 @@ components:
 display-whitelist: false
 
 # How often a tile gets rendered (in seconds).
-renderinterval: 1
+renderinterval: 10
 
 # How many tiles on update queue before accelerate render interval
 renderacceleratethreshold: 60
@@ -211,7 +211,7 @@ renderacceleratethreshold: 60
 renderaccelerateinterval: 0.2
 
 # How many update tiles to work on at once (if not defined, default is 1/2 the number of cores)
-tiles-rendered-at-once: 2
+tiles-rendered-at-once: 10
 
 # If true, use normal priority threads for rendering (versus low priority) - this can keep rendering
 # from starving on busy Windows boxes (Linux JVMs pretty much ignore thread priority), but may result
@@ -233,19 +233,19 @@ initial-zoomout-validate: true
 # Default delay on processing of updated tiles, in seconds.  This can reduce potentially expensive re-rendering
 # of frequently updated tiles (such as due to machines, pistons, quarries or other automation).  Values can
 # also be set on individual worlds and individual maps.
-tileupdatedelay: 30
+tileupdatedelay: 1000
 
 # Tile hashing is used to minimize tile file updates when no changes have occurred - set to false to disable
 enabletilehash: true
 
 # Optional - hide ores: render as normal stone (so that they aren't revealed by maps)
-#hideores: true
+hideores: true
 
 # Optional - enabled BetterGrass style rendering of grass and snow block sides
-#better-grass: true
+better-grass: false
 
 # Optional - enable smooth lighting by default on all maps supporting it (can be set per map as lighting option)
-smooth-lighting: true
+smooth-lighting: false
 
 # Optional - use world provider lighting table (good for custom worlds with custom lighting curves, like nether)
 #   false=classic Dynmap lighting curve
@@ -301,10 +301,10 @@ render-triggers:
   - leavesdecay
   - blockburn
   - chunkgenerated
-  - blockformed
-  - blockfaded
-  - blockspread
-  - pistonmoved
+  #- blockformed
+  #- blockfaded
+  #- blockspread
+  #- pistonmoved
   - explosion
   #- blockfromto
   #- blockphysics
@@ -349,7 +349,7 @@ login-required: false
 timesliceinterval: 0.0
 
 # Maximum chunk loads per server tick (1/20th of a second) - reducing this below 90 will impact render performance, but also will reduce server thread load
-maxchunkspertick: 200
+maxchunkspertick: 250
 
 # Progress report interval for fullrender/radiusrender, in tiles.  Must be 100 or greater
 progressloginterval: 100
@@ -357,23 +357,23 @@ progressloginterval: 100
 # Parallel fullrender: if defined, number of concurrent threads used for fullrender or radiusrender
 #   Note: setting this will result in much more intensive CPU use, some additional memory use.  Caution should be used when
 #  setting this to equal or exceed the number of physical cores on the system.
-#parallelrendercnt: 4
+parallelrendercnt: 50
 
 # Interval the browser should poll for updates.
 updaterate: 2000
 
 # If nonzero, server will pause fullrender/radiusrender processing when 'fullrenderplayerlimit' or more users are logged in
-fullrenderplayerlimit: 0
+fullrenderplayerlimit: 1
 # If nonzero, server will pause update render processing when 'updateplayerlimit' or more users are logged in
-updateplayerlimit: 0
+updateplayerlimit: 1
 # Target limit on server thread use - msec per tick
 per-tick-time-limit: 50
 # If TPS of server is below this setting, update renders processing is paused
-update-min-tps: 18.0
+update-min-tps: 19.6
 # If TPS of server is below this setting, full/radius renders processing is paused
-fullrender-min-tps: 18.0
+fullrender-min-tps: 19.6
 # If TPS of server is below this setting, zoom out processing is paused
-zoomout-min-tps: 18.0
+zoomout-min-tps: 19.6
 
 showplayerfacesinmenu: true
 
@@ -386,7 +386,7 @@ player-sort-permission-nodes:
   - bukkit.command.op
   
 # Set sidebaropened: 'true' to pin menu sidebar opened permanently, 'pinned' to default the sidebar to pinned, but allow it to unpin
-#sidebaropened: true
+sidebaropened: true
 
 # Customized HTTP response headers - add 'id: value' pairs to all HTTP response headers (internal web server only)
 #http-response-headers:
@@ -415,7 +415,7 @@ check-banned-ips: true
 # Default selection when map page is loaded
 defaultzoom: 5
 defaultworld: world
-defaultmap: surface
+defaultmap: flat
 # (optional) Zoom level and map to switch to when following a player, if possible
 #followzoom: 3
 #followmap: surface

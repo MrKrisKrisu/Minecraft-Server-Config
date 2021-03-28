@@ -9,10 +9,10 @@ worlds:
   # Worlds can be handled by templates, based on world type
   # You can override the properties of the template by specifying them in this section
   #    for example 'Title: "My Awesome World"'
-  #- name: world
+  - name: world
   #  title: "World"
   #   Use 'enabled: false' to disable a certain world.
-  #  enabled: false
+    enabled: true
   #   Use sendposition: false to prevent player positions from showing when on this world (if sendposition is globally enabled)
   #  sendposition: false
   #   Use sendhealth: false to prevent player health from showing when on this world (if sendhealth is globally enabled)
@@ -65,23 +65,23 @@ worlds:
   #  # of frequently updated tiles (such as due to machines, pistons, quarries or other automation).  Value can also be set on
   #  # individual maps.
   #  tileupdatedelay: 30
-  #  maps:
-  #    - class: org.dynmap.hdmap.HDMap
-  #      name: flat
-  #      title: "Flat"
-  #      prefix: flat
-  #      perspective: iso_S_90_lowres
-  #      shader: stdtexture
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    #  - class: org.dynmap.hdmap.HDMap
+   #     name: surface
+   #     title: "Surface"
+   #     prefix: t
+   #     perspective: iso_SE_30_hires
+   #     shader: stdtexture
   #      lighting: shadows
-  #      mapzoomin: 1
-  #    - class: org.dynmap.hdmap.HDMap
-  #      name: surface
-  #      title: "Surface"
-  #      prefix: t
-  #      perspective: iso_SE_30_hires
-  #      shader: stdtexture
-  #      lighting: shadows
-  #      mapzoomin: 1
+   #     mapzoomin: 1
   #    - class: org.dynmap.hdmap.HDMap
   #      name: cave
   #      title: "Cave"
@@ -95,7 +95,8 @@ worlds:
   #- name: world2
   #  title: "Second World"
   #
-  #- name: nether
+  - name: world_nether
+    enabled: false
   #  title: "Nether"
   #  center:
   #    x: 0
@@ -124,3 +125,5 @@ worlds:
   #      # Map background color (day or night)
   #      background: "#300806"
   #      mapzoomin: 1
+  - name: world_the_end
+    enabled: false

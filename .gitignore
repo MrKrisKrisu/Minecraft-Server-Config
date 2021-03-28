@@ -16,3 +16,13 @@ usercache.json
 /world/
 /world_nether/
 /world_the_end/
+.console_history
+plugins/LogBlock/config.yml
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/LuckPerms/translations/
+plugins/Skript/
+plugins/Skoice/
+plugins/Train_Carts/destinations.dat
+plugins/Train_Carts/spawnsigns.dat
+plugins/Vixio/
+version_history.json

@@ -62,7 +62,7 @@ collision:
 
 # Whether or not all minecarts spawned on the server turn into TrainCarts' Minecarts
 # Note that the TrainCart placement permission is then no longer active
-allMinecartsAreTrainCarts: false
+allMinecartsAreTrainCarts: true
 
 # Whether or not powered minecarts obtain their coal from attached storage minecarts
 useCoalFromStorageCart: false
@@ -176,7 +176,7 @@ manualMovementFactor: 0.1
 currencyFormat: '%value% Dollars'
 
 # Whether trains can be teleported to the nether (or back) when rails are laid close to the portals
-allowNetherTeleport: true
+allowNetherTeleport: false
 
 # The delay (in ticks) between ejecting and re-entering by collision (e.g. mobs auto-entering carts)
 collisionReEnterDelay: 100
@@ -212,14 +212,7 @@ statementShortcuts: {}
 
 # Several shortcuts you can use on signs to set the items
 itemShortcuts:
-  fuel: ''
-  heatable: ''
-  armor: diamond_boots;leather_chestplate;netherite_boots;legacy_leather_chestplate;legacy_gold_leggings;diamond_chestplate;legacy_iron_boots;legacy_leather_helmet;legacy_leather_boots;netherite_chestplate;legacy_diamond_boots;chainmail_chestplate;netherite_helmet;legacy_chainmail_leggings;legacy_iron_chestplate;golden_leggings;chainmail_helmet;legacy_chainmail_boots;diamond_leggings;legacy_iron_leggings;iron_boots;chainmail_leggings;legacy_chainmail_helmet;legacy_leather_leggings;leather_helmet;legacy_diamond_leggings;legacy_gold_chestplate;golden_chestplate;legacy_diamond_helmet;leather_leggings;diamond_helmet;iron_leggings;legacy_iron_helmet;iron_chestplate;legacy_chainmail_chestplate;leather_boots;golden_helmet;chainmail_boots;legacy_diamond_chestplate;turtle_helmet;legacy_gold_boots;iron_helmet;legacy_gold_helmet;golden_boots;netherite_leggings
-  sword: wooden_sword;stone_sword;iron_sword;golden_sword;iron_sword;diamond_sword;legacy_wood_sword;legacy_stone_sword;legacy_iron_sword;legacy_gold_sword;legacy_iron_sword;legacy_diamond_sword;netherite_sword
-  boots: leather_boots;iron_boots;golden_boots;diamond_boots;chainmail_boots;legacy_leather_boots;legacy_iron_boots;legacy_gold_boots;legacy_diamond_boots;legacy_chainmail_boots;netherite_boots
-  leggins: leather_leggings;iron_leggings;golden_leggings;diamond_leggings;chainmail_leggings;legacy_leather_leggings;legacy_iron_leggings;legacy_gold_leggings;legacy_diamond_leggings;legacy_chainmail_leggings;netherite_leggings
-  chestplate: leather_chestplate;iron_chestplate;golden_chestplate;diamond_chestplate;chainmail_chestplate;legacy_leather_chestplate;legacy_iron_chestplate;legacy_gold_chestplate;legacy_diamond_chestplate;legacy_chainmail_chestplate;netherite_chestplate
-  helmet: leather_helmet;iron_helmet;golden_helmet;diamond_helmet;chainmail_helmet;turtle_helmet;legacy_leather_helmet;legacy_iron_helmet;legacy_gold_helmet;legacy_diamond_helmet;legacy_chainmail_helmet;netherite_helmet
+  zl_furnace: gold_ore;iron_ore;beef;chicken;fish;mutton;coal_ore;lapis_ore;diamond_ore;redstone_ore;lit_redstone_ore;emerald_ore;quartz_ore;raw_cod;raw_salmon;raw_porkchop
 
 # Parse signs made in Minecraft 1.7 and before without re-creating
 parseOldSigns: false

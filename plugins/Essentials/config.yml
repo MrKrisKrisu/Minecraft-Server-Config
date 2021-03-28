@@ -24,7 +24,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 nickname-prefix: '~'
@@ -143,7 +143,7 @@ drop-items-if-full: false
 
 # Essentials Mail Notification
 # Should we notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # Specifies the duration (in seconds) between each time a player is notified of mail they have.
 # Useful for servers with a lot of mail traffic.
@@ -167,8 +167,73 @@ overridden-commands:
 # You should not have to disable commands used in other plugins, they will automatically get priority.
 # See http://wiki.bukkit.org/Commands.yml#aliases to map commands to other plugins.
 disabled-commands:
-#  - nick
-#  - clear
+  - clear
+  - afk
+  - afk.auto
+  - balance
+  - balance.others
+  - balancetop
+  - build
+  - chat.color
+  - chat.format
+  - chat.shout
+  - chat.question
+  - compass
+  - depth
+  - getpos
+  - geoip.show
+  - help
+  - helpop
+  - ignore
+  - info
+  - itemdb
+  - kit
+  - kits.tools
+  - list
+  - mail
+  - mail.send
+  - me
+  - motd
+  - nick
+  - near
+  - pay
+  - ping
+  - protect
+  - r
+  - rules
+  - realname
+  - seen
+  - sell
+  - setxmpp
+  - signs.create.protection
+  - signs.create.trade
+  - signs.break.protection
+  - signs.break.trade
+  - signs.use.balance
+  - signs.use.buy
+  - signs.use.disposal
+  - signs.use.enchant
+  - signs.use.free
+  - signs.use.gamemode
+  - signs.use.heal
+  - signs.use.info
+  - signs.use.kit
+  - signs.use.mail
+  - signs.use.protection
+  - signs.use.repair
+  - signs.use.sell
+  - signs.use.trade
+  - signs.use.warp
+  - signs.use.weather
+  - tpa
+  - tpaccept
+  - tpahere
+  - tpdeny
+  - warp
+  - warp.list
+  - world
+  - worth
+  - xmpp
 
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or
@@ -423,13 +488,13 @@ remove-god-on-disconnect: false
 # After this timeout in seconds, the user will be set as AFK.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: 300
+auto-afk: 120
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.
 # essentials.afk.kickexempt node overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-kick: -1
+auto-afk-kick: 300
 
 # Set this to true, if you want to freeze the player, if the player is AFK.
 # Other players or monsters can't push the player out of AFK mode then.
@@ -689,7 +754,7 @@ compass-towards-home-perm: false
 
 # If no home is set, would you like to send the player to spawn?
 # If set to false, players will not be teleported when they run /home without setting a home first.
-spawn-if-no-home: true
+spawn-if-no-home: false
 
 # Should players be asked to provide confirmation for homes which they attempt to overwrite?
 confirm-home-overwrite: false

@@ -10,12 +10,286 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    weltbahn-blue-weststadt:
-        min: {x: -474, y: 61, z: 236}
-        max: {x: -466, y: 72, z: 249}
+    weltbahn-tunnel-blau-ost:
+        min: {x: -126, y: 34, z: 175}
+        max: {x: 1482, y: 42, z: 185}
+        members: {}
+        flags: {build: deny, interact: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-station-hauptbahnhof:
+        min: {x: 572, y: 53, z: -1379}
+        max: {x: 685, y: 122, z: -1301}
+        members: {}
+        flags: {lightning: deny, lava-fire: deny, water-flow: deny, use: allow, fall-damage: deny,
+            snow-fall: deny, interact: allow, snow-melt: deny, tnt: deny, lava-flow: deny,
+            mob-spawning: deny, fire-spread: deny}
+        owners:
+            unique-ids: [b429d798-5654-4097-abad-901a5bd77645]
+        type: cuboid
+        priority: 0
+    weltbahn-station-bergen:
+        min: {x: 374, y: 51, z: 653}
+        max: {x: 388, y: 63, z: 671}
         members: {}
         flags:
             build: deny
+            interact: allow
+            greeting-title: |-
+                §6Bergen
+                §9Weltbahn Station
+        owners: {}
+        type: cuboid
+        priority: 0
+    suedbergen:
+        members:
+            unique-ids: [53c7273e-7b2b-4076-adda-7d4d00e914ab, 91eedfc6-6b44-40b4-8e0c-502f5cfb77db,
+                404bc5d8-4fca-4d6c-b57e-22fe37fd04d8]
+        flags: {}
+        owners:
+            unique-ids: [83fdf1a5-4b84-4a47-833e-126756ad7840]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: 219, z: 768}
+        - {x: 210, z: 768}
+        - {x: 173, z: 764}
+        - {x: 135, z: 770}
+        - {x: 98, z: 782}
+        - {x: 76, z: 805}
+        - {x: 69, z: 829}
+        - {x: 74, z: 851}
+        - {x: 82, z: 870}
+        - {x: 110, z: 892}
+        - {x: 136, z: 903}
+        - {x: 184, z: 896}
+        - {x: 209, z: 888}
+        - {x: 268, z: 884}
+        - {x: 286, z: 864}
+        - {x: 277, z: 838}
+        - {x: 276, z: 806}
+        - {x: 269, z: 775}
+        - {x: 254, z: 775}
+        - {x: 242, z: 766}
+    weltbahn-tunnel-blau-nordost:
+        min: {x: 420, y: 32, z: -1663}
+        max: {x: 432, y: 42, z: 177}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-sos-1:
+        min: {x: 415, y: 36, z: 183}
+        max: {x: 423, y: 72, z: 190}
+        members: {}
+        flags: {build: deny, interact: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    highbergen:
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [404bc5d8-4fca-4d6c-b57e-22fe37fd04d8, 53c7273e-7b2b-4076-adda-7d4d00e914ab,
+                b89258b8-b5af-4601-82d4-3b82adc524fb, 4ad2840f-1b6e-4634-ac1a-7dfcff2498b4,
+                91eedfc6-6b44-40b4-8e0c-502f5cfb77db, 83fdf1a5-4b84-4a47-833e-126756ad7840]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: 322, z: 836}
+        - {x: 344, z: 804}
+        - {x: 330, z: 749}
+        - {x: 312, z: 695}
+        - {x: 324, z: 664}
+        - {x: 316, z: 629}
+        - {x: 302, z: 588}
+        - {x: 291, z: 576}
+        - {x: 279, z: 572}
+        - {x: 266, z: 574}
+        - {x: 242, z: 579}
+        - {x: 224, z: 596}
+        - {x: 211, z: 636}
+        - {x: 207, z: 650}
+        - {x: 200, z: 659}
+        - {x: 201, z: 672}
+        - {x: 212, z: 693}
+        - {x: 206, z: 751}
+        - {x: 213, z: 765}
+        - {x: 242, z: 766}
+        - {x: 254, z: 774}
+        - {x: 270, z: 776}
+        - {x: 277, z: 812}
+        - {x: 278, z: 847}
+        - {x: 287, z: 865}
+    westbergen:
+        members:
+            unique-ids: [53c7273e-7b2b-4076-adda-7d4d00e914ab, 404bc5d8-4fca-4d6c-b57e-22fe37fd04d8,
+                4ad2840f-1b6e-4634-ac1a-7dfcff2498b4, 91eedfc6-6b44-40b4-8e0c-502f5cfb77db,
+                83fdf1a5-4b84-4a47-833e-126756ad7840]
+        flags: {damage-animals: deny}
+        owners:
+            unique-ids: [b89258b8-b5af-4601-82d4-3b82adc524fb]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: 188, z: 705}
+        - {x: 197, z: 700}
+        - {x: 200, z: 695}
+        - {x: 204, z: 681}
+        - {x: 200, z: 665}
+        - {x: 204, z: 655}
+        - {x: 208, z: 647}
+        - {x: 209, z: 640}
+        - {x: 209, z: 627}
+        - {x: 204, z: 622}
+        - {x: 197, z: 628}
+        - {x: 189, z: 632}
+        - {x: 181, z: 633}
+        - {x: 172, z: 629}
+        - {x: 165, z: 623}
+        - {x: 159, z: 618}
+        - {x: 152, z: 621}
+        - {x: 149, z: 627}
+        - {x: 149, z: 648}
+        - {x: 149, z: 655}
+        - {x: 150, z: 672}
+        - {x: 154, z: 686}
+        - {x: 163, z: 696}
+        - {x: 175, z: 702}
+    weststadt:
+        members:
+            unique-ids: [b429d798-5654-4097-abad-901a5bd77645]
+        flags: {interact: allow, damage-animals: allow}
+        owners:
+            unique-ids: [09ad39cf-b231-4d2f-8efd-8deb1ebf52ab, 0f70ee77-e5a9-441b-96b5-841246860e3a,
+                18e6b97c-a736-4562-a26b-dc272f8ad6c8]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: -338, z: 196}
+        - {x: -357, z: 165}
+        - {x: -392, z: 125}
+        - {x: -496, z: 120}
+        - {x: -569, z: 82}
+        - {x: -608, z: 129}
+        - {x: -633, z: 191}
+        - {x: -749, z: 264}
+        - {x: -735, z: 344}
+        - {x: -663, z: 373}
+        - {x: -603, z: 454}
+        - {x: -528, z: 488}
+        - {x: -476, z: 475}
+        - {x: -417, z: 429}
+        - {x: -309, z: 361}
+        - {x: -313, z: 282}
+    weltbahn-tunnel-blau-suedost-suedost:
+        min: {x: 429, y: 34, z: 802}
+        max: {x: 1064, y: 42, z: 812}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    zentrallager:
+        min: {x: 496, y: 68, z: -1366}
+        max: {x: 545, y: 177, z: -1318}
+        members: {}
+        flags: {other-explosion: deny, wither-damage: deny, lava-fire: deny, use: allow,
+            interact: allow, enderman-grief: deny, chest-access: allow, mob-spawning: deny,
+            fire-spread: deny, enderdragon-block-damage: deny, creeper-explosion: deny,
+            snowman-trails: deny, fall-damage: deny, mob-damage: deny, item-frame-rotation: deny,
+            entity-painting-destroy: deny, ravager-grief: deny, entity-item-frame-destroy: deny,
+            ghast-fireball: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-tunnel-gelb-suedost:
+        min: {x: -223, y: 33, z: 920}
+        max: {x: 423, y: 41, z: 930}
+        members: {}
+        flags: {build: deny, interact: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    spawn:
+        members: {}
+        flags: {deny-message: Bitte verlasse den Spawnbereich um mit Objekten interagieren
+                zu können., build: deny, use: allow, interact: allow}
+        owners: {}
+        type: poly2d
+        priority: 0
+        max-y: 65
+        min-y: 46
+        points:
+        - {x: -338, z: 196}
+        - {x: -320, z: 235}
+        - {x: -257, z: 290}
+        - {x: -155, z: 317}
+        - {x: -50, z: 181}
+        - {x: -73, z: 77}
+        - {x: -180, z: -18}
+        - {x: -208, z: -53}
+        - {x: -245, z: -69}
+        - {x: -301, z: -63}
+        - {x: -380, z: -48}
+        - {x: -441, z: -21}
+        - {x: -451, z: 19}
+        - {x: -429, z: 29}
+        - {x: -410, z: 38}
+        - {x: -392, z: 66}
+    weltbahn-tunnel-blau-nord-westost:
+        min: {x: -2011, y: 33, z: -1671}
+        max: {x: 1481, y: 41, z: -1661}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    ostbergen:
+        members:
+            unique-ids: [53c7273e-7b2b-4076-adda-7d4d00e914ab, 91eedfc6-6b44-40b4-8e0c-502f5cfb77db,
+                404bc5d8-4fca-4d6c-b57e-22fe37fd04d8, 4ad2840f-1b6e-4634-ac1a-7dfcff2498b4]
+        flags: {damage-animals: deny}
+        owners:
+            unique-ids: [b89258b8-b5af-4601-82d4-3b82adc524fb]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: 330, z: 695}
+        - {x: 338, z: 707}
+        - {x: 348, z: 714}
+        - {x: 362, z: 721}
+        - {x: 371, z: 728}
+        - {x: 376, z: 741}
+        - {x: 390, z: 751}
+        - {x: 408, z: 747}
+        - {x: 423, z: 737}
+        - {x: 425, z: 715}
+        - {x: 424, z: 696}
+        - {x: 409, z: 672}
+        - {x: 383, z: 669}
+        - {x: 365, z: 675}
+        - {x: 336, z: 678}
+        - {x: 330, z: 682}
+    weltbahn-station-weststadt:
+        min: {x: -477, y: 45, z: 235}
+        max: {x: -459, y: 63, z: 251}
+        members: {}
+        flags:
+            build: deny
+            use: allow
             interact: allow
             greeting-title: |-
                 §6Weststadt
@@ -23,66 +297,13 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    weltbahn-blue-east:
-        min: {x: -131, y: 31, z: 174}
-        max: {x: 869, y: 43, z: 186}
-        members: {}
-        flags: {}
-        owners: {}
-        type: cuboid
-        priority: 0
-    westbahn-blue-east-northsouth:
-        min: {x: 421, y: 31, z: -817}
-        max: {x: 431, y: 43, z: 1183}
-        members: {}
-        flags: {}
-        owners: {}
-        type: cuboid
-        priority: 0
-    weltbahn-blue-west:
-        min: {x: -1285, y: 34, z: 176}
-        max: {x: -278, y: 41, z: 184}
-        members: {}
-        flags: {}
-        owners: {}
-        type: cuboid
-        priority: 0
-    purpurelefant:
-        min: {x: -421, y: 0, z: 296}
-        max: {x: -362, y: 255, z: 341}
-        members: {}
-        flags: {greeting: Du betrittst das Grundstück von purpurElefant, farewell: Du
-                verlässt das Grundstück von purpurElefant}
-        owners:
-            unique-ids: [0f70ee77-e5a9-441b-96b5-841246860e3a]
-        type: cuboid
-        priority: 0
-    matze:
-        min: {x: -618, y: 0, z: 205}
-        max: {x: -589, y: 255, z: 236}
-        members: {}
-        flags: {greeting: Du betrittst das Grundstück von Matze, farewell: Du verlässt
-                das Grundstück von Matze}
-        owners:
-            unique-ids: [18e6b97c-a736-4562-a26b-dc272f8ad6c8]
-        type: cuboid
-        priority: 0
-    mrkriskrisu:
-        min: {x: -466, y: 0, z: 176}
-        max: {x: -408, y: 255, z: 241}
-        members: {}
-        flags: {greeting: Du betrittst das Grundstück von MrKrisKrisu, farewell: Du
-                verlässt das Grundstück von MrKrisKrisu}
-        owners:
-            unique-ids: [09ad39cf-b231-4d2f-8efd-8deb1ebf52ab]
-        type: cuboid
-        priority: 0
-    weltbahn-kroepcke:
+    weltbahn-station-kroepcke:
         min: {x: -256, y: 29, z: 121}
         max: {x: -155, y: 60, z: 223}
         members: {}
         flags:
             build: deny
+            use: allow
             interact: allow
             greeting-title: |-
                 §6Kröpcke
@@ -90,4 +311,75 @@ regions:
             mob-spawning: deny
         owners: {}
         type: cuboid
+        priority: 0
+    bookwood:
+        members:
+            unique-ids: [dba7c61d-12d6-49f6-b80d-98d63181008b, 53c7273e-7b2b-4076-adda-7d4d00e914ab,
+                91eedfc6-6b44-40b4-8e0c-502f5cfb77db, 404bc5d8-4fca-4d6c-b57e-22fe37fd04d8]
+        flags: {use: allow, interact: allow}
+        owners:
+            unique-ids: [4ad2840f-1b6e-4634-ac1a-7dfcff2498b4]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: 1110, z: 876}
+        - {x: 1154, z: 878}
+        - {x: 1158, z: 858}
+        - {x: 1161, z: 831}
+        - {x: 1173, z: 814}
+        - {x: 1164, z: 784}
+        - {x: 1142, z: 759}
+        - {x: 1138, z: 731}
+        - {x: 1124, z: 722}
+        - {x: 1107, z: 739}
+        - {x: 1085, z: 739}
+        - {x: 1071, z: 741}
+        - {x: 1070, z: 741}
+        - {x: 1059, z: 737}
+        - {x: 1052, z: 734}
+        - {x: 1041, z: 744}
+        - {x: 1022, z: 762}
+        - {x: 1010, z: 786}
+        - {x: 1012, z: 811}
+        - {x: 1000, z: 875}
+        - {x: 1057, z: 919}
+    weltbahn-tunnel-blau-westnord:
+        min: {x: -2019, y: 32, z: -1670}
+        max: {x: -2009, y: 42, z: 177}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-tunnel-blau-suedost:
+        min: {x: 420, y: 34, z: 183}
+        max: {x: 432, y: 42, z: 1828}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-tunnel-gelb-sued:
+        min: {x: -231, y: 33, z: 223}
+        max: {x: -221, y: 41, z: 1829}
+        members: {}
+        flags: {build: deny, interact: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-tunnel-blau-west:
+        min: {x: -2017, y: 33, z: 175}
+        max: {x: -284, y: 41, z: 185}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
         priority: 0

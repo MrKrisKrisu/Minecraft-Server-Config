@@ -3,6 +3,27 @@
 icons: {
     }
 sets:
+    spawn_beds:
+        hide: true
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Spawn Beds
+        markers:
+            MrKrisKrisu_bed:
+                world: world
+                markup: false
+                x: -443.0
+                icon: bed
+                y: 87.0
+                z: 201.0
+                label: MrKrisKrisu's bed
+        lines: {
+            }
+        layerprio: 0
+        minzoom: 0
     markers:
         hide: false
         circles: {
@@ -11,8 +32,55 @@ sets:
         areas: {
             }
         label: Markers
-        markers: {
-            }
+        markers:
+            marker_1:
+                world: world
+                markup: false
+                x: 620.0
+                icon: default
+                y: 64.0
+                z: 1136.0
+                label: Baugebiet3
+            marker_2:
+                world: world
+                markup: false
+                x: 204.0
+                icon: default
+                y: 142.0
+                z: 809.0
+                label: Südbergen
+            marker_3:
+                world: world
+                markup: false
+                x: 220.0
+                icon: default
+                y: 137.0
+                z: 645.0
+                label: Nordbergen
+            marker_4:
+                world: world
+                markup: false
+                x: 407.0
+                icon: default
+                y: 86.0
+                z: 712.0
+                label: Ostbergen
+            marker_5:
+                world: world
+                markup: false
+                x: 1107.0
+                icon: default
+                y: 65.0
+                z: 821.0
+                label: Bookwood
+            marker_6:
+                world: world
+                markup: false
+                x: -245.0
+                icon: default
+                y: 73.0
+                z: 164.0
+                label: Kröpcke
         lines: {
             }
         layerprio: 0
