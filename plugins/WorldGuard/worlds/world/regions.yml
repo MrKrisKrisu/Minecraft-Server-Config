@@ -10,83 +10,11 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    weltbahn-tunnel-blau-ost:
-        min: {x: -126, y: 34, z: 175}
-        max: {x: 1482, y: 42, z: 185}
-        members: {}
-        flags: {build: deny, interact: allow}
-        owners: {}
-        type: cuboid
-        priority: 0
-    weltbahn-station-hauptbahnhof:
-        min: {x: 572, y: 53, z: -1379}
-        max: {x: 685, y: 122, z: -1301}
-        members: {}
-        flags: {lightning: deny, lava-fire: deny, water-flow: deny, use: allow, fall-damage: deny,
-            snow-fall: deny, interact: allow, snow-melt: deny, tnt: deny, lava-flow: deny,
-            mob-spawning: deny, fire-spread: deny}
-        owners:
-            unique-ids: [b429d798-5654-4097-abad-901a5bd77645]
-        type: cuboid
-        priority: 0
-    weltbahn-station-bergen:
-        min: {x: 374, y: 51, z: 653}
-        max: {x: 388, y: 63, z: 671}
-        members: {}
-        flags:
-            build: deny
-            interact: allow
-            greeting-title: |-
-                §6Bergen
-                §9Weltbahn Station
-        owners: {}
-        type: cuboid
-        priority: 0
-    suedbergen:
-        members:
-            unique-ids: [53c7273e-7b2b-4076-adda-7d4d00e914ab, 91eedfc6-6b44-40b4-8e0c-502f5cfb77db,
-                404bc5d8-4fca-4d6c-b57e-22fe37fd04d8]
-        flags: {}
-        owners:
-            unique-ids: [83fdf1a5-4b84-4a47-833e-126756ad7840]
-        type: poly2d
-        priority: 0
-        max-y: 255
-        min-y: 0
-        points:
-        - {x: 219, z: 768}
-        - {x: 210, z: 768}
-        - {x: 173, z: 764}
-        - {x: 135, z: 770}
-        - {x: 98, z: 782}
-        - {x: 76, z: 805}
-        - {x: 69, z: 829}
-        - {x: 74, z: 851}
-        - {x: 82, z: 870}
-        - {x: 110, z: 892}
-        - {x: 136, z: 903}
-        - {x: 184, z: 896}
-        - {x: 209, z: 888}
-        - {x: 268, z: 884}
-        - {x: 286, z: 864}
-        - {x: 277, z: 838}
-        - {x: 276, z: 806}
-        - {x: 269, z: 775}
-        - {x: 254, z: 775}
-        - {x: 242, z: 766}
     weltbahn-tunnel-blau-nordost:
         min: {x: 420, y: 32, z: -1663}
         max: {x: 432, y: 42, z: 177}
         members: {}
         flags: {}
-        owners: {}
-        type: cuboid
-        priority: 0
-    weltbahn-sos-1:
-        min: {x: 415, y: 36, z: 183}
-        max: {x: 423, y: 72, z: 190}
-        members: {}
-        flags: {build: deny, interact: allow}
         owners: {}
         type: cuboid
         priority: 0
@@ -164,34 +92,38 @@ regions:
         - {x: 154, z: 686}
         - {x: 163, z: 696}
         - {x: 175, z: 702}
-    weststadt:
-        members:
-            unique-ids: [b429d798-5654-4097-abad-901a5bd77645]
-        flags: {interact: allow, damage-animals: allow}
+    toastvogel480:
+        members: {}
+        flags: {}
         owners:
-            unique-ids: [09ad39cf-b231-4d2f-8efd-8deb1ebf52ab, 0f70ee77-e5a9-441b-96b5-841246860e3a,
-                18e6b97c-a736-4562-a26b-dc272f8ad6c8]
+            unique-ids: [80fe693c-05ab-4c93-ba5f-abc6366785f6]
         type: poly2d
         priority: 0
         max-y: 255
         min-y: 0
         points:
-        - {x: -338, z: 196}
-        - {x: -357, z: 165}
-        - {x: -392, z: 125}
-        - {x: -496, z: 120}
-        - {x: -569, z: 82}
-        - {x: -608, z: 129}
-        - {x: -633, z: 191}
-        - {x: -749, z: 264}
-        - {x: -735, z: 344}
-        - {x: -663, z: 373}
-        - {x: -603, z: 454}
-        - {x: -528, z: 488}
-        - {x: -476, z: 475}
-        - {x: -417, z: 429}
-        - {x: -309, z: 361}
-        - {x: -313, z: 282}
+        - {x: -409, z: 1077}
+        - {x: -380, z: 1089}
+        - {x: -343, z: 1089}
+        - {x: -282, z: 1080}
+        - {x: -264, z: 1064}
+        - {x: -260, z: 1054}
+        - {x: -274, z: 989}
+        - {x: -345, z: 917}
+        - {x: -396, z: 856}
+        - {x: -454, z: 862}
+        - {x: -485, z: 898}
+        - {x: -549, z: 947}
+        - {x: -588, z: 938}
+        - {x: -636, z: 932}
+        - {x: -677, z: 958}
+        - {x: -682, z: 1005}
+        - {x: -646, z: 1072}
+        - {x: -591, z: 1103}
+        - {x: -573, z: 1152}
+        - {x: -520, z: 1202}
+        - {x: -476, z: 1164}
+        - {x: -445, z: 1082}
     weltbahn-tunnel-blau-suedost-suedost:
         min: {x: 429, y: 34, z: 802}
         max: {x: 1064, y: 42, z: 812}
@@ -207,9 +139,9 @@ regions:
         flags: {other-explosion: deny, wither-damage: deny, lava-fire: deny, use: allow,
             interact: allow, enderman-grief: deny, chest-access: allow, mob-spawning: deny,
             fire-spread: deny, enderdragon-block-damage: deny, creeper-explosion: deny,
-            snowman-trails: deny, fall-damage: deny, mob-damage: deny, item-frame-rotation: deny,
-            entity-painting-destroy: deny, ravager-grief: deny, entity-item-frame-destroy: deny,
-            ghast-fireball: deny}
+            snowman-trails: deny, fall-damage: deny, item-frame-rotation: deny, mob-damage: deny,
+            ravager-grief: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny}
         owners: {}
         type: cuboid
         priority: 0
@@ -218,40 +150,6 @@ regions:
         max: {x: 423, y: 41, z: 930}
         members: {}
         flags: {build: deny, interact: allow}
-        owners: {}
-        type: cuboid
-        priority: 0
-    spawn:
-        members: {}
-        flags: {deny-message: Bitte verlasse den Spawnbereich um mit Objekten interagieren
-                zu können., build: deny, use: allow, interact: allow}
-        owners: {}
-        type: poly2d
-        priority: 0
-        max-y: 65
-        min-y: 46
-        points:
-        - {x: -338, z: 196}
-        - {x: -320, z: 235}
-        - {x: -257, z: 290}
-        - {x: -155, z: 317}
-        - {x: -50, z: 181}
-        - {x: -73, z: 77}
-        - {x: -180, z: -18}
-        - {x: -208, z: -53}
-        - {x: -245, z: -69}
-        - {x: -301, z: -63}
-        - {x: -380, z: -48}
-        - {x: -441, z: -21}
-        - {x: -451, z: 19}
-        - {x: -429, z: 29}
-        - {x: -410, z: 38}
-        - {x: -392, z: 66}
-    weltbahn-tunnel-blau-nord-westost:
-        min: {x: -2011, y: 33, z: -1671}
-        max: {x: 1481, y: 41, z: -1661}
-        members: {}
-        flags: {}
         owners: {}
         type: cuboid
         priority: 0
@@ -297,21 +195,6 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    weltbahn-station-kroepcke:
-        min: {x: -256, y: 29, z: 121}
-        max: {x: -155, y: 60, z: 223}
-        members: {}
-        flags:
-            build: deny
-            use: allow
-            interact: allow
-            greeting-title: |-
-                §6Kröpcke
-                §9Weltbahn Station
-            mob-spawning: deny
-        owners: {}
-        type: cuboid
-        priority: 0
     bookwood:
         members:
             unique-ids: [dba7c61d-12d6-49f6-b80d-98d63181008b, 53c7273e-7b2b-4076-adda-7d4d00e914ab,
@@ -353,6 +236,163 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    weltbahn-tunnel-blau-west:
+        min: {x: -2017, y: 33, z: 175}
+        max: {x: -284, y: 41, z: 185}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-tunnel-blau-ost:
+        min: {x: -126, y: 34, z: 175}
+        max: {x: 1482, y: 42, z: 185}
+        members: {}
+        flags: {build: deny, interact: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-station-hauptbahnhof:
+        min: {x: 572, y: 53, z: -1379}
+        max: {x: 685, y: 122, z: -1301}
+        members: {}
+        flags: {lightning: deny, lava-fire: deny, water-flow: deny, use: allow, fall-damage: deny,
+            snow-fall: deny, interact: allow, snow-melt: deny, tnt: deny, lava-flow: deny,
+            mob-spawning: deny, fire-spread: deny}
+        owners:
+            unique-ids: [b429d798-5654-4097-abad-901a5bd77645]
+        type: cuboid
+        priority: 0
+    weltbahn-station-bergen:
+        min: {x: 374, y: 51, z: 653}
+        max: {x: 388, y: 63, z: 671}
+        members: {}
+        flags:
+            build: deny
+            interact: allow
+            greeting-title: |-
+                §6Bergen
+                §9Weltbahn Station
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-sos-1:
+        min: {x: 415, y: 36, z: 183}
+        max: {x: 423, y: 72, z: 190}
+        members: {}
+        flags: {build: deny, interact: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    suedbergen:
+        members:
+            unique-ids: [53c7273e-7b2b-4076-adda-7d4d00e914ab, 91eedfc6-6b44-40b4-8e0c-502f5cfb77db,
+                404bc5d8-4fca-4d6c-b57e-22fe37fd04d8]
+        flags: {}
+        owners:
+            unique-ids: [83fdf1a5-4b84-4a47-833e-126756ad7840]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: 219, z: 768}
+        - {x: 210, z: 768}
+        - {x: 173, z: 764}
+        - {x: 135, z: 770}
+        - {x: 98, z: 782}
+        - {x: 76, z: 805}
+        - {x: 69, z: 829}
+        - {x: 74, z: 851}
+        - {x: 82, z: 870}
+        - {x: 110, z: 892}
+        - {x: 136, z: 903}
+        - {x: 184, z: 896}
+        - {x: 209, z: 888}
+        - {x: 268, z: 884}
+        - {x: 286, z: 864}
+        - {x: 277, z: 838}
+        - {x: 276, z: 806}
+        - {x: 269, z: 775}
+        - {x: 254, z: 775}
+        - {x: 242, z: 766}
+    weststadt:
+        members:
+            unique-ids: [b429d798-5654-4097-abad-901a5bd77645]
+        flags: {interact: allow, damage-animals: allow}
+        owners:
+            unique-ids: [09ad39cf-b231-4d2f-8efd-8deb1ebf52ab, 0f70ee77-e5a9-441b-96b5-841246860e3a,
+                18e6b97c-a736-4562-a26b-dc272f8ad6c8]
+        type: poly2d
+        priority: 0
+        max-y: 255
+        min-y: 0
+        points:
+        - {x: -338, z: 196}
+        - {x: -357, z: 165}
+        - {x: -392, z: 125}
+        - {x: -496, z: 120}
+        - {x: -569, z: 82}
+        - {x: -608, z: 129}
+        - {x: -633, z: 191}
+        - {x: -749, z: 264}
+        - {x: -735, z: 344}
+        - {x: -663, z: 373}
+        - {x: -603, z: 454}
+        - {x: -528, z: 488}
+        - {x: -476, z: 475}
+        - {x: -417, z: 429}
+        - {x: -309, z: 361}
+        - {x: -313, z: 282}
+    spawn:
+        members: {}
+        flags: {deny-message: Bitte verlasse den Spawnbereich um mit Objekten interagieren
+                zu können., build: deny, use: allow, interact: allow}
+        owners: {}
+        type: poly2d
+        priority: 0
+        max-y: 65
+        min-y: 46
+        points:
+        - {x: -338, z: 196}
+        - {x: -320, z: 235}
+        - {x: -257, z: 290}
+        - {x: -155, z: 317}
+        - {x: -50, z: 181}
+        - {x: -73, z: 77}
+        - {x: -180, z: -18}
+        - {x: -208, z: -53}
+        - {x: -245, z: -69}
+        - {x: -301, z: -63}
+        - {x: -380, z: -48}
+        - {x: -441, z: -21}
+        - {x: -451, z: 19}
+        - {x: -429, z: 29}
+        - {x: -410, z: 38}
+        - {x: -392, z: 66}
+    weltbahn-tunnel-blau-nord-westost:
+        min: {x: -2011, y: 33, z: -1671}
+        max: {x: 1481, y: 41, z: -1661}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    weltbahn-station-kroepcke:
+        min: {x: -256, y: 29, z: 121}
+        max: {x: -155, y: 60, z: 223}
+        members: {}
+        flags:
+            build: deny
+            use: allow
+            interact: allow
+            greeting-title: |-
+                §6Kröpcke
+                §9Weltbahn Station
+            mob-spawning: deny
+        owners: {}
+        type: cuboid
+        priority: 0
     weltbahn-tunnel-blau-suedost:
         min: {x: 420, y: 34, z: 183}
         max: {x: 432, y: 42, z: 1828}
@@ -366,14 +406,6 @@ regions:
         max: {x: -221, y: 41, z: 1829}
         members: {}
         flags: {build: deny, interact: allow}
-        owners: {}
-        type: cuboid
-        priority: 0
-    weltbahn-tunnel-blau-west:
-        min: {x: -2017, y: 33, z: 175}
-        max: {x: -284, y: 41, z: 185}
-        members: {}
-        flags: {}
         owners: {}
         type: cuboid
         priority: 0

@@ -26,3 +26,4 @@ plugins/Train_Carts/destinations.dat
 plugins/Train_Carts/spawnsigns.dat
 plugins/Vixio/
 version_history.json
+plugins/dynmap/markers.yml.old
