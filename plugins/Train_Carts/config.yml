@@ -226,7 +226,7 @@ itemShortcuts:
   zl_slab: spolished_granite_slab;smooth_red_sandstone_slab;mossy_stone_brick_slab;polished_diorite_slab;mossy_cobblestone_slab;end_stone_brick_slab;stone_slab;smooth_sandstone_slab;smooth_quartz_slab;granite_slab;andesite_slab;red_nether_brick_slab;polished_andesite_slab;diorite_slab;stone_brick_slab;purpur_slab;oak_slab;cobblestone_slab;brick_slab;nether_brick_slab;sandstone_slab;spruce_slab;birch_slab;jungle_slab;crimson_slab;warped_slab;acacia_slab;dark_oak_slab;prismarine_slab;prismarine_brick_slab;dark_prismarine_slab;blackstone_slab;polished_blackstone_slab;polished_blackstone_brick_slab
   zl_armor_iron: iron_helmet;iron_chestplate;iron_leggings;iron_boots;iron_horse_armor
   zl_armor_dia: diamond_helmet;diamond_chestplate;diamond_leggings;diamond_boots;diamond_horse_armor
-  zl_tools_iron: iron_sword;iron_shovel;iron_pickaxe;iron_axe;iron_hoe
+  zl_tools_iron: iron_sword;iron_shovel;iron_pickaxe;iron_axe;iron_hoe;bucket
   zl_tools_dia: diamond_sword;diamond_shovel;diamond_pickaxe;diamond_axe;diamond_hoe
   fuel: ''
   heatable: ''
